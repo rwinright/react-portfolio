@@ -6,7 +6,6 @@
     align-items: flex-start;
     justify-content: space-between;
     align-content: center;
-    text-align: center;
     margin: auto;
     width: 90%;
     
@@ -26,7 +25,6 @@
     }
     .content {
       width: 60%;
-      text-align: justify;
       #lfw{
         color: red;
         text-align: center;
@@ -38,7 +36,6 @@
             flex-direction: column-reverse;
             align-items: flex-start;
             justify-content: center;
-            margin: 40px 40px;
             .content{
                 width: 90%;
                 margin: auto;
