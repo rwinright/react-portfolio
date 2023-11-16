@@ -1,0 +1,28 @@
+.Contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    text-align: center;
+    margin: 8px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    .contact-link{
+      text-align: center;
+      margin: 10px;
+      span{
+        margin: 8px 0px;
+      }
+      display: inline;
+      svg{
+        font-size: 1.4rem;
+        margin-right: 4px;
+      }
+    }
+  }
+}

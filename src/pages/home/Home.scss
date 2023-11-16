@@ -1,0 +1,66 @@
+.Home{
+    .greeting{
+      background-color: rgba(128, 128, 128, 0.349);
+      width: 100%;
+      padding: 5% 0;
+      color: white;
+      text-align: center;
+      background-image: url("public/space.jpg");
+      background-size: cover;
+      background-position: center;
+      h1{
+        font-family: "Orbitron", sans-serif;
+      }
+
+      img{
+        width: 25vh;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: center;
+      text-align: center;
+      .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .card {
+          display: block;
+          border: 1px solid black;
+          border-radius: 3px;
+          box-shadow: 3px 3px 9px 0px #00000080;
+          padding: 1% 3%;
+          &:hover {
+            transform: scale(1.1);
+          }
+          
+          &:active {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+
+    //Responsive styles
+    @media only screen and (max-width: 768px) {
+      &{
+        padding: 1%;
+      }
+      .greeting {
+        padding: 3% 0;
+      }
+      .cards {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        .card {
+          margin-bottom: 2%;
+        }
+      }
+    }
+}

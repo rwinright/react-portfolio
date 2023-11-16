@@ -1,0 +1,25 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1%;
+    background-color: $bg-white;
+    .logo{
+      a{
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+    .nav-links{
+      display: flex;
+      flex-direction: row;
+      .nav-link {
+        margin-right: 10px;
+        font-size: 1.2rem;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+}

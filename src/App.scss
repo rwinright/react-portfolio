@@ -1,0 +1,28 @@
+@import "./globals.scss";
+// Component imports
+@import "./components/Header/Header.scss";
+@import "./components/Footer/Footer.scss";
+// @import "./components/Shared/Shared.scss";
+
+// Page imports
+@import "./pages/home/Home.scss";
+@import "./pages/about/About.scss";
+@import "./pages/contact/Contact.scss";
+@import "./pages/work/Work.scss";
+
+
+
+// Global styles
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+

@@ -1,0 +1,73 @@
+.Work{
+  h1 {
+    text-align: center;
+  }
+
+  .posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .post{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px auto;
+      padding: 10px;
+      border: 1px solid black;
+      height: 400px;
+      width: 90vw;
+      border-radius: 5px;
+      .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        padding: 10%;
+        text-align: center;
+        img{
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+        }
+      }
+      .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        img{
+          height: 350px;
+          width: auto;
+          border-radius: 5px;
+        }
+      }
+    }
+    //Responsive styles
+    @media only screen and (max-width: 1024px) {
+      &{
+        .post{
+          height: auto;
+          flex-direction: column;
+          .left{
+            padding: 0;
+          }
+          .right{
+            // display: none;
+            padding: 10px;
+            img{
+              // display: none;
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}
