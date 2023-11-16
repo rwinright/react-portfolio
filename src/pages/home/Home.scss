@@ -44,20 +44,20 @@
           }
         }
       }
-    }
-
-    //Responsive styles
-    @media only screen and (max-width: 768px) {
-      .greeting {
-        padding: 3% 0;
-      }
-      .cards {
-        flex-direction: column;
-        width: 90%;
-        margin: auto;
-        .card {
-          margin-bottom: 2%;
+      //Responsive styles
+      @media only screen and (max-width: 768px) {
+        .greeting {
+          padding: 3% 0;
+        }
+        .cards {
+          flex-direction: column;
+          width: 90%;
+          margin: auto;
+          .card {
+            margin-bottom: 2%;
+          }
         }
       }
     }
+
 }
