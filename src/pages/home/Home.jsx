@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="greeting">
         <h1>Roger Winright</h1>
         <h2>Web/Mobile/Game Developer | Weekend Rockstar</h2>
-        <img src="public/rwrock.jpg" alt="Roger Winright" id="changeImg" />
+        <img src="./rwrock.jpg" alt="Roger Winright" id="changeImg" />
       </div>
 
       <div className="container">

@@ -61,7 +61,7 @@ export const About = () => {
           <p id="lfw">I am also a freelancer in my spare time, looking to take on new projects or join an exciting
             team building web, mobile, and gaming applications</p>
         </div>
-        <img src="public/rw.jpg" />
+        <img src="./rw.jpg" />
       </div>
     </div>
   )
