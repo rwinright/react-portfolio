@@ -13,7 +13,7 @@ export const Work = () => {
     },
     {
       title: "Bentley iTwin",
-      img: "./itwin.png",
+      img: "./iTwin.png",
       description: "This was the first project that I had worked on with my previous employer. It's a digital twin application for visualizing data for the wind turbines located off the coast of Scotland. It was built using Unreal Engine and Blueprints. I had a hand in building the UI and UX for the app, as well as integrating the Bentley API data into the application while synchronizing simulation data with the UI.",
       myRole: "Unreal Engine Developer",
       link: "https://cesium.com/blog/2023/07/18/bentley-systems-simulates-offshore-wind-farms/"
