@@ -1,5 +1,6 @@
 import React from 'react'
 import { PostComponent } from './components/PostComponent'
+import ParticleEmitter from '../../components/Particles/ParticleEmitter'
 
 export const Work = () => {
 
@@ -71,6 +72,7 @@ export const Work = () => {
           ))
         }
       </div>
+      <ParticleEmitter />
     </div>
   )
 }

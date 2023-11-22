@@ -1,4 +1,5 @@
 import React from 'react'
+import ParticleEmitter from '../../components/Particles/ParticleEmitter'
 
 export const About = () => {
   return (
@@ -63,6 +64,7 @@ export const About = () => {
         </div>
         <img src="./rw.jpg" />
       </div>
+      <ParticleEmitter />
     </div>
   )
 }

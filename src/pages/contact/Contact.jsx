@@ -3,6 +3,7 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import React from 'react'
+import ParticleEmitter from '../../components/Particles/ParticleEmitter'
 
 export const Contact = () => {
   return (
@@ -28,6 +29,7 @@ export const Contact = () => {
           <span> <a href="http://www.linkedin.com/in/rwinright">linkedin.com/in/rwinright</a></span>
         </div>
       </div>
+      <ParticleEmitter/>
     </div>
   )
 }
