@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import './App.scss'
 
 import React from 'react'
@@ -13,7 +13,7 @@ import { Contact } from "./pages/contact/Contact";
 
 export const App = () => {
   return (
-    <BrowserRouter basename="/" future={{ v7_startTransition: true }}>
+    <HashRouter basename="/">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ export const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
