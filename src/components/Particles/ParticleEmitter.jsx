@@ -8,7 +8,7 @@ const ParticleEmitter = () => {
   }, [])
 
   const particlesLoaded = useCallback(async container => {
-    console.log(container);
+    // you can initialize the tsParticles instance (mainPlugin is the plugin name, container is the the container element)
   }, []);
 
   return (
