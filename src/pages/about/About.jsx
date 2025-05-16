@@ -59,8 +59,8 @@ export const About = () => {
             My interest of the industry had piqued and I wanted to learn more about the industry and how I could contribute to it further which led me to learning Unreal Engine development and joining an awesome company named Imerza where I had worked closely with Unreal Engine, React JS, and Python to build 3D experiences for the architecture and real estate industries.
           </p>
 
-          <p id="lfw">I am also a freelancer in my spare time, looking to take on new projects or join an exciting
-            team building web, mobile, and gaming applications</p>
+          {/* <p id="lfw">I am also a freelancer in my spare time, looking to take on new projects or join an exciting
+            team building web, mobile, and gaming applications</p> */}
         </div>
         <img src="./rw.jpg" />
       </div>
